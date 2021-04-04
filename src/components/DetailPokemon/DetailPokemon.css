@@ -1,0 +1,105 @@
+.containerDetailPokemon{
+    display: flex;
+    justify-content: center;
+    background-color: 'white';
+    height: 500px;
+}
+
+.subContainerDetail{
+    margin-top: 4em;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    background-color: rgb(21, 108, 114);
+    height: 350px;
+    color: cornsilk;
+    border-radius: 5px;
+}
+
+.imageDetail{
+    margin-left: 3em;
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.statsDetail{
+    display:flex;
+    flex-direction: column;
+    margin-left: 1em;
+    width: 300px;
+    height: 300px;
+ 
+}
+
+.namePokemonStats{
+    /* margin-top: 1em; */
+    font-weight: bold;
+    font-size: 3em;
+    margin-left: 0.7em;
+}
+
+.titleStats{
+    display:flex;
+    justify-content: flex-start;
+    margin-top: 2em;
+    margin-left: 1em;
+    font-weight: bold;
+    /* font-size: 1.3em; */
+}
+
+.statsContent{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+    /* margin-left: 0.5em; */
+    font-weight: bold;
+    width: 420px;
+  /*   border: 1px solid rgb(175, 172, 145);
+    background-color: darkgreen; */
+}
+
+.labelsContainer{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    /* border: 1px solid rgb(175, 172, 145); */
+}
+
+.barsContainer{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    /* border: 1px solid rgb(175, 172, 145); */
+}
+
+.labelStatDetail{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+  margin-bottom: 3px;
+}
+
+.barStatsDetail{
+    display: flex;
+    height: 10px;
+    background-color:cornsilk;
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.labelTypeDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10px;
+    font-weight: bold;
+    color:cornsilk;
+    margin-left: 5em;
+    /* background-color:cornsilk;  */ 
+}
+
+.typeItemDetail{
+    margin-left: 8px;
+}

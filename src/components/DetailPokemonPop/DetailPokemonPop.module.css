@@ -1,0 +1,108 @@
+.modalWindow {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    height:630px;
+    width: 500px;
+  }
+
+  .superior{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    border-top-left-radius:10px ;
+  }
+
+  .imageBack{
+    margin-top: 20px;
+    margin-left: 30px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .superior img{
+      border-radius: 5px;
+  }
+
+  .name{
+    display: flex;
+    font-size: 35px;
+    flex-direction: column;
+    align-items: center;
+  /*   font-family:monospace; */
+    font-weight: bold;
+    color:white;
+    margin-top: 20px;
+    width: 100%;
+  /*   margin-left: 200px; */
+
+    
+  }
+
+  .inferior{
+    display: flex;
+    justify-content: center;
+   /*  align-items: center; */
+   margin-top: 30px;
+    flex-direction: row;
+    width: 400x;
+    height: 300px;
+    font-weight: initial;
+    color: black;
+  }
+
+  .left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+
+  }
+
+  .midle{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 50px;
+    height: 100px;
+    margin-left: 10px;
+
+  }
+
+  .right{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 240px;
+    height: 100px;
+    margin-left: 10px;
+
+  }
+
+  .backgoundBar{
+    display: flex;
+    padding: 1px;
+    height: 20px;
+    background-color:rgba(204, 182, 182, 0.616);
+    width: 240px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    border-radius: 2px;
+  }
+
+  .barStat{
+    /* display: flex; */
+    height: 5px;
+    background-color: rgb(21, 108, 114);
+    border-radius: 2px;
+  }
+
+  .types{
+    margin-top: 20px;
+  }

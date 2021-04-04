@@ -1,0 +1,52 @@
+.containerLanding{
+   display: flex;
+   flex-direction: row;
+   justify-items: center;
+   align-items: center;
+   width: 100%;
+}
+
+
+.imageLanding{
+    background-image: url("../../assets/landing.jpg");
+    height: 900px;
+    width: 1350px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.imageLandingizq{
+    width: 150px;
+    background-image: url('../../assets/landingizq.JPG');
+    height:600px;
+}
+
+.imageLandingder{
+    height:600px;
+    width: 150px;;
+    background-image: url('../../assets/landingder.JPG');
+}
+
+.buttonLanding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: rgb(223, 108, 41);
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid cornflowerblue;
+}
+
+.labelButtonLanding{
+    color: rgb(40, 106, 230);
+    font-weight: bold;
+}
+
+.linkLanding{
+    text-decoration: none;
+}
+

@@ -1,0 +1,105 @@
+.bar{
+display:flex;
+flex-direction:row;
+align-items: center;
+background-color: rgb(21, 108, 114);
+height: 130px;
+border: 5px solid rgb(175, 172, 145);
+width: 1330px;
+}
+
+.options{
+display: flex;
+margin-left: 4%;
+font-weight: bold;
+font-size: 70%;
+}
+
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    border-radius: 10%;
+    border: 1px solid rgb(228, 227, 218);
+    padding: 10px;
+    width: 70px;
+    color: rgb(228, 227, 218);
+    text-decoration: none;
+    height: 30px;
+}
+
+.createPokemon{
+
+    margin-left: 20px;
+    border-radius: 10%;
+    border: 1px solid rgb(228, 227, 218);
+    padding: 10px;
+    width: 70px;
+    color: rgb(228, 227, 218);
+    text-decoration: none;
+
+}
+
+.myPokemons{
+    margin-left: 20px;
+    border-radius: 10%;
+    width: 80px;
+    border: 1px solid rgb(228, 227, 218);
+    padding: 10px;
+    color: rgb(228, 227, 218);
+    cursor: pointer;
+
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(228, 227, 218);
+      
+}
+
+.logoPokemon{
+
+    display: flex;
+    align-items: center;
+    margin-left: 18%;
+} 
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-self: flex-end;
+    margin-left: 25%;
+    border: 1px solid rgb(228, 227, 218);
+    padding: 12px;
+    border-radius: 5px;
+    
+}
+
+.items:hover {
+    background-color: rgba(177, 76, 202, 0.246); 
+    
+}
+
+.search:hover{
+    background-color: rgba(228, 227, 218, 0.246); 
+}
+
+.createPokemon:hover{
+    background-color: rgba(228, 227, 218, 0.246);  
+}
+
+.myPokemons:hover{
+    background-color: rgba(228, 227, 218, 0.246); 
+}
+
+div {
+    transition: background-color 0.2s linear 0s;
+}
+
+
+  
+
+
+
+

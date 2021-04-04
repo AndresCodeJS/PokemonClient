@@ -1,0 +1,143 @@
+.types{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 5px;
+  
+}
+
+.containerCard{
+    border:1px solid gray;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    width: 220px;
+  
+    transition: 0.4s ease;
+    -moz-transition: 0.3s ease; /* Firefox */
+    -webkit-transition: 0.4s ease; /* Chrome - Safari */
+    -o-transition: 0.3s ease; /* Opera */
+
+}
+
+.imagenInterr{
+    width: 100%;
+    border-radius: 2px;
+   
+}
+
+.containerInterr{
+    background-color: white;
+}
+
+.containerCard:hover {
+    border-color: rgb(67, 133, 194);
+
+
+    transform : scale(1.1);
+    -moz-transform : scale(1.1); /* Firefox */
+    -webkit-transform : scale(1.1); /* Chrome - Safari */
+    -o-transform : scale(1.1); /* Opera */
+    -ms-transform : scale(1.1); /* IE9 */
+
+}
+
+.statsPokemonCard{
+    display: flex;
+    flex-direction: column;
+   /*  justify-content: center; */
+    align-items: center;
+    background-color: cornsilk;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.topPokemonCard{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* img:hover{
+    transform: translateX(10%);
+    transform: translateX(-10%);
+} */
+
+.containerCard:hover{
+    background-color: rgba(177, 175, 166, 0.911);  
+}
+
+
+/* div {
+    transition: background-color 0.2s linear 0s;
+} */
+
+.namePokemon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+    margin-top: 5px ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+.textStyle{
+    font-size: 12px;
+    display: flex;
+    margin-right: 5%;
+    font-weight: bold;
+   /*  color: cornsilk; */
+}
+
+.typeItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+    margin-top: 8px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 20px;
+    width: 60px;
+    height: 20px;
+    opacity: 0.8;
+}
+
+.deleteButton{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 5px;
+    height: 25px;
+    width: 25px;
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 5px;
+
+    transition: 0.4s ease;
+    -moz-transition: 0.3s ease; /* Firefox */
+    -webkit-transition: 0.4s ease; /* Chrome - Safari */
+    -o-transition: 0.3s ease; /* Opera */
+}
+
+.deleteButton:hover{
+    transform : scale(1.1);
+    -moz-transform : scale(1.1); /* Firefox */
+    -webkit-transform : scale(1.1); /* Chrome - Safari */
+    -o-transform : scale(1.1); /* Opera */
+    -ms-transform : scale(1.1); /* IE9 */
+}
+ 

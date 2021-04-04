@@ -1,0 +1,28 @@
+.modalWindow {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    color: rgb(21, 108, 114);
+    padding: 2em 2em;
+   /*  margin-top: 150px; */
+    width: 300px;
+  }
+
+  .buttonModal{
+    padding: 5px;
+    margin-top: 50px;
+    border: 1px solid  rgb(21, 108, 114);
+    width: 50px;
+    border-radius: 5px;
+    background-color: rgb(21, 108, 114);
+    color: white;
+    cursor: pointer;
+}
+
+.imageModal{
+  height: 100px;
+  width: 100px;
+  margin-left:40px;
+}

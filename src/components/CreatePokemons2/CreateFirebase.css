@@ -1,0 +1,56 @@
+/* .containerCreatePokemon{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(175, 172, 145);
+    height: auto;
+}
+
+
+.titleCreate{
+    height: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+
+.gridFirebase{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 350px;
+    margin-top: 1em;
+    margin-bottom: 1px;
+    height:auto;
+    background-color: red;
+}
+
+.pictureAdd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerArtImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 110px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.progressBar{
+    display: flex;
+    width: 110px;
+}
+
+.firebaseItems{
+    margin-top: 30px;
+}
+
+.inputFile{
+    display:none;
+}
+ */

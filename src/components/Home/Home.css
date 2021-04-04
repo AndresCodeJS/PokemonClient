@@ -1,0 +1,203 @@
+
+.containerGrid{
+   width: 60%;
+   margin-left: 5%;
+   margin-right: 10%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    width: 100%;
+    margin-top: 1em;
+    margin-left: 20px;
+    margin-bottom: 1px;
+    height:auto;
+}
+
+.containerHome{
+    display: flex;
+    flex-direction: column;
+    background-color: 'white';
+    width: 1320px;
+   height: 950px;
+}
+
+.subContainerHome{
+    display: flex;
+    flex-direction: row;
+}
+
+.ContainerHomeTypesNav{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:5%;
+    margin-top:5.5em;
+    height: 715px;
+    border-radius: 10px;
+}
+
+/* @media screen and (max-width: 1250px){
+    .ContainerHomeTypesNav{
+        display: none;
+    }
+}
+
+@media screen and (max-width:930px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+        width: 200px;
+    }
+
+    .containerGrid{
+        width: 200px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:400px){
+  
+    .containerHome{
+        width: 100%;
+    }
+
+    .containerCard{
+        width: 180px;
+    }
+
+    .bar{
+        width: 100%; 
+        flex-direction:column;
+    }
+
+    .options{
+        margin-left: 5px;
+    }
+
+    .logoPokemon{
+        display:none;
+    }
+
+    .grid{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .containerGrid{
+        width:100%;
+    }
+
+    .search{
+        margin-top:20px;
+        margin-left: 0px;
+        padding: 0px;
+         
+    }
+} */
+
+.ContainerHomeTypesNav img{
+    border-radius: 5px;
+}
+
+.labelTypesNav{
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(228, 227, 218);
+}
+
+.filterHome{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 3em;
+    /* align-self: flex-end; */
+    justify-content: flex-end;
+}
+
+.itemFilter{
+    padding-right: 1em;
+}
+
+.linkDetail{
+    text-decoration: none;
+    color:black
+}
+
+.linkDetail:hover{
+    cursor: pointer;
+}
+
+.openModalDetail2{
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    /* justify-content:flex-end; */
+}
+
+.marginLeft{
+    margin-left:1250px;
+}
+
+/* .leftModal{
+    width: 100px;
+    background-color: salmon;
+    height: 630px;
+
+}
+
+.containerModal{
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .modalWindowDetail {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    color: rgb(21, 108, 114);
+    padding: 2em 2em;
+    height: 950px;
+    width: 400px;
+  } */
+
+
+.emptyContainer{
+    margin-top: 5.5em;
+}
+#cursorGrid{
+    cursor:wait
+}
+
+.imagenGIf{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 200px;
+    background-image: url(../../assets/tumblr_md2qy86zYp1qmwn4mo1_500.gif);
+    height: 140px;
+    width: 485px;
+}
+
+.loading{
+    margin-top: 100px;
+}
+
+.mypokemons{
+    margin-top: 200px;
+}
+
+
+
+
+

@@ -1,0 +1,224 @@
+.containerCreatePokemon{
+    display: flex;
+    justify-content: center;
+    background-color: 'white';
+    height: 850px;
+    width: 1300px
+}
+
+.subContainerCreate{
+
+    display: flex;
+    align-items: center;
+    width: 800px;
+    background-color: rgb(21, 108, 114);
+    height: 790px;
+    color: cornsilk;
+    border-radius: 10px;
+}
+
+.statsCreate{
+    margin-left: 2.5em;
+    width: 720px;
+    height: 740px;
+    border: 1px solid rgb(175, 172, 145);
+}
+
+.titleCreate{
+    /* background-color: greenyellow; */
+    height: 40px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.containerLabelsCreate{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(29, 44, 7); */
+    margin-right: 10px;
+}
+
+.containerInputsCreate{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(29, 44, 7); */
+}
+
+.containerErrors{
+    /* display: flex;
+    flex-direction: column; */
+    width: 300px;
+    height: 200px;
+   /*  background-color: darkgray; */
+}
+
+.errorsLabel{
+    display: flex;
+    color: rgb(228, 184, 184);
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+.errorsEmpty{
+    margin-bottom: 17px;  
+    visibility: hidden;
+}
+
+input{
+    border-radius: 2px;
+}
+
+.labelForm{
+    margin-right: 3px;
+    margin-bottom: 16px;
+}
+
+.inputForm{
+    margin-bottom: 15px;
+}
+
+.inputFormShort{
+  width: 30px;
+  margin-bottom: 15px;
+}
+
+.error{
+    margin-bottom: 12px;
+    border: 1px solid rgba(255, 0, 0, 0.671);
+    background-color: rgb(224, 161, 161);
+}
+
+.errorShort{
+    margin-bottom: 13px;
+    width: 30px;
+    border: 1px solid rgba(255, 0, 0, 0.671);
+    background-color: rgb(224, 161, 161);
+}
+
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  /*   background-color:green; */
+    height: 230px;
+    margin-top: 10px;
+}
+
+.subContainerForm{
+   /*  display: flex; */
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+   /*  background-color: burlywood; */
+}
+
+.containerForm1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+   /*  justify-content: center; */
+    margin-left: 400px;
+    width: 100%;
+   /*  background-color: darkgray; */
+}
+
+.containerForm2{
+    display: flex;
+    /* flex-direction: row; */
+    margin-left: 50x;
+    background-color: darkblue;
+    /* background-color: lawngreen; */
+}
+
+.containerFirebase{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.buttonCreate{
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.listCreate{
+    padding: 2.5px;
+    margin-bottom: 12px;
+    color: black
+}
+
+.pictureAdd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerArtImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 110px;
+    border: 1px solid white;
+    cursor: pointer;
+ /*    background-color:white; */
+   /*  background-color:black; */
+}
+
+.loadingGIf{
+    background-image: url(../../assets/simple.gif);
+    height:110px;
+    width: 110px;
+}
+
+.inputFile{
+    display:none;
+}
+
+.openModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+   /*  align-items: center; */
+}
+.modalWindow {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    color: rgb(21, 108, 114);
+    padding: 2em 2em;
+   /*  margin-top: 150px; */
+    width: 300px;
+  }
+
+  .buttonModal{
+      padding: 5px;
+      margin-top: 50px;
+      border: 1px solid  rgb(21, 108, 114);
+      width: 50px;
+      border-radius: 5px;
+      background-color: rgb(21, 108, 114);
+      color: white;
+      cursor: pointer;
+  }
+
+  .imageModal{
+      height: 100px;
+      width: 100px;
+      margin-left:40px;
+  }
+
+

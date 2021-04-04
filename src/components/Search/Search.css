@@ -1,0 +1,14 @@
+.form-container{
+    display:flex;
+    flex-direction: row;
+}
+
+.items2{
+    display: flex;
+    align-self: center;
+}
+
+input{
+    border-width: 0px;
+    height: 20px;
+}
